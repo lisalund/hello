@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { Image } from 'react-bootstrap'
+import Card from "react-bootstrap/esm/Card";
 
 export default class Sidebar extends Component {
   render() {
@@ -9,9 +11,9 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(/images/netlight-firstimpression-17.jpg)'}} />
-                <h1 id="colorlib-logo"><Link to={'/hello'}>Lisa Lund</Link></h1>
-              <span className="email"><i className="icon-mail"></i> lisa.lund93@gmail.com</span>
+              <Image  className="author-img" src="images/netlight-firstimpression-17.png"/>
+                <h1 id="colorlib-logo"><Link to={'/hello/'}>Lisa Lund</Link></h1>
+              <span className="email"><i className="icon-mail"/> lisa.lund93@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">

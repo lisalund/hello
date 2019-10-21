@@ -15,7 +15,7 @@ class App extends Component {
                     render={() => <MainPage/>}
             />
             <Route
-                path="hello/projects/:project"
+                path="hello/:project"
                 render={props => <ProjectPage {...props}/>}
             />
             </div>
