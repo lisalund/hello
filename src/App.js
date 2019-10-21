@@ -11,7 +11,7 @@ class App extends Component {
         <div id="colorlib-page">
             <div id="container-wrap">
                 <Sidebar/>
-            <Route exact path="/hello"
+            <Route exact path="/hello/"
                     render={() => <MainPage/>}
             />
             <Route
