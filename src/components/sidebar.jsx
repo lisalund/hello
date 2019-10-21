@@ -10,7 +10,7 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(/images/netlight-firstimpression-17.jpg)'}} />
-                <h1 id="colorlib-logo"><Link to={'/'}>Lisa Lund</Link></h1>
+                <h1 id="colorlib-logo"><Link to={'/hello'}>Lisa Lund</Link></h1>
               <span className="email"><i className="icon-mail"></i> lisa.lund93@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

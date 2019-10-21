@@ -26,7 +26,7 @@ export default class Projects extends Component {
 						</div>
 					</div>
 						<CardColumns>
-                            <Link to={'/projects/sparkle'}>{sparkleCard}</Link>
+                            <Link to={'hello/projects/sparkle'}>{sparkleCard}</Link>
                             <Card>
                                 <Card.Img variant="top" src="images/projects/underConstruction.png" />
                                 <Card.Body>
