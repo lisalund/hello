@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar from "./sidebar";
-import Sparkle from "./projects/sparkle"
+import Sparkle from "./projects/sparkle";
+import Agar from "./projects/agar";
 export default class ProjectPage extends Component {
 
     constructor(props){
@@ -20,6 +21,9 @@ export default class ProjectPage extends Component {
                 break;
             case "sparkle":
                 content = <Sparkle/>;
+                break;
+            case "agar":
+                content = <Agar/>;
                 break;
         }
 

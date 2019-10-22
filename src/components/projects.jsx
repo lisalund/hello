@@ -14,6 +14,18 @@ export default class Projects extends Component {
           </Card.Body>
       </Card>);
 
+      let agarCard = (
+          <Card border="light">
+              <Card.Img variant="top" src="images/projects/agarCard.png" />
+              <Card.Body className="projectCard">
+                  <Card.Title>Agar.io evaluation</Card.Title>
+                  <Card.Text>
+                      A usability evaluation of the game Agar.io
+                  </Card.Text>
+              </Card.Body>
+          </Card>
+      );
+
 
   	return(
   		<div>
@@ -27,6 +39,7 @@ export default class Projects extends Component {
 					</div>
 						<CardColumns>
                             <Link to={'/sparkle'}>{sparkleCard}</Link>
+                            <Link to={'/agar'}>{agarCard}</Link>
                             <Card>
                                 <Card.Img variant="top" src="images/projects/underConstruction.png" />
                                 <Card.Body>
