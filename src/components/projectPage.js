@@ -27,7 +27,6 @@ export default class ProjectPage extends Component {
             <div id="container-wrap">
                 <Sidebar/>
                 <div id="colorlib-main">
-                    <p>content goes here</p>
                     {content}
                 </div>
             </div>

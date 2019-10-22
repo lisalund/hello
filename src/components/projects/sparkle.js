@@ -30,11 +30,11 @@ export default class Sparkle extends Component {
 
                                     <p><a href="https://invis.io/CFUG6TZYDXZ" target="_blank" rel="noopener noreferrer">Link to complete prototype</a></p>
 
-                                    <Image className="projectImg" src="/images/projects/sparkleSketch.png"/>
+                                    <Image className="projectImg" src="images/projects/sparkleSketch.png"/>
                                     <br/>
-                                    <Image className="projectImg" src="/images/projects/sparkleToday.png"/>
+                                    <Image className="projectImg" src="images/projects/sparkleToday.png"/>
                                     <br/>
-                                    <Image className="projectImg" src="/images/projects/sparkleTTpng.png"/>
+                                    <Image className="projectImg" src="images/projects/sparkleTTpng.png"/>
                                 </div>
                             </div>
                         </div>

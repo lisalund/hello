@@ -5,6 +5,7 @@
   "homepage": "https://lisalund.github.io/hello/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "gh-pages": "^2.1.1",
     "react": "^16.8.3",
     "react-bootstrap": "^1.0.0-beta.14",

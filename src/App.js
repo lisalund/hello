@@ -11,11 +11,11 @@ class App extends Component {
         <div id="colorlib-page">
             <div id="container-wrap">
                 <Sidebar/>
-            <Route exact path="/hello/"
+            <Route exact path="/"
                     render={() => <MainPage/>}
             />
             <Route
-                path="hello/:project"
+                path="/:project"
                 render={props => <ProjectPage {...props}/>}
             />
             </div>
