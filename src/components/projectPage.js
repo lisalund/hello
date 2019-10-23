@@ -25,6 +25,20 @@ export default class ProjectPage extends Component {
             case "agar":
                 content = <Agar/>;
                 break;
+            case "perception":
+                content = <div><p>Human perception project coming soon</p></div>;
+                break;
+            case "munchkin":
+                content = <div><p>Munchkin project coming soon</p></div>;
+                break;
+            case "shakeme":
+                content = <div><p>ShakeMe project coming soon</p></div>;
+                break;
+            case "soma":
+                content = <div><p>Soma design project coming soon</p></div>;
+                break;
+            default:
+                content = <div><p>Well, shit. The "{this.state.project}" project doesn't seem to exist.</p></div>
         }
 
         return(
