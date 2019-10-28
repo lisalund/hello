@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Sidebar from "./sidebar";
 import Sparkle from "./projects/sparkle";
 import Agar from "./projects/agar";
+import Perception from "./projects/perception";
+import Soma from "./projects/soma";
 export default class ProjectPage extends Component {
 
     constructor(props){
@@ -26,7 +28,7 @@ export default class ProjectPage extends Component {
                 content = <Agar/>;
                 break;
             case "perception":
-                content = <div><p>Human perception project coming soon</p></div>;
+                content = <Perception/>;
                 break;
             case "munchkin":
                 content = <div><p>Munchkin project coming soon</p></div>;
@@ -35,7 +37,7 @@ export default class ProjectPage extends Component {
                 content = <div><p>ShakeMe project coming soon</p></div>;
                 break;
             case "soma":
-                content = <div><p>Soma design project coming soon</p></div>;
+                content = <Soma/>;
                 break;
             default:
                 content = <div><p>Well, shit. The "{this.state.project}" project doesn't seem to exist.</p></div>

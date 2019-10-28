@@ -23,8 +23,27 @@ export default class Projects extends Component {
                       A usability evaluation of the game Agar.io
                   </Card.Text>
               </Card.Body>
-          </Card>
-      );
+          </Card>);
+
+      let perceptionCard = (<Card border="light">
+          <Card.Img variant="top" src="images/projects/perceptionCard.png" />
+          <Card.Body className="projectCard">
+              <Card.Title>Experiment on human short-term memory</Card.Title>
+              <Card.Text>
+                  An experiment about how colour combinations affect human short-term memory
+              </Card.Text>
+          </Card.Body>
+      </Card>);
+
+      let somaCard = (<Card border="light">
+          <Card.Img variant="top" src="images/projects/somaCard.png" />
+          <Card.Body className="projectCard">
+              <Card.Title>Somaesthetic Design</Card.Title>
+              <Card.Text>
+                  Designing a somaesthetic domestic appliance
+              </Card.Text>
+          </Card.Body>
+      </Card>);
 
 
   	return(
@@ -39,7 +58,9 @@ export default class Projects extends Component {
 					</div>
 						<CardColumns>
                             <Link to={'/sparkle'}>{sparkleCard}</Link>
+                            <Link to={'/soma'}>{somaCard}</Link>
                             <Link to={'/agar'}>{agarCard}</Link>
+                            <Link to={'/perception'}>{perceptionCard}</Link>
                             <Card>
                                 <Card.Img variant="top" src="images/projects/underConstruction.png" />
                                 <Card.Body>
