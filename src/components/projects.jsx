@@ -71,6 +71,7 @@ export default class Projects extends Component {
                             <Link to={'/soma'}>{somaCard}</Link>
                             <Link to={'/agar'}>{agarCard}</Link>
                             <Link to={'/perception'}>{perceptionCard}</Link>
+                            <Link to={'/shakeme'}>{shakeMeCard}</Link>
                             <Card>
                                 <Card.Img variant="top" src="images/projects/underConstruction.png" />
                                 <Card.Body>
