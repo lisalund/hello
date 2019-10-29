@@ -45,6 +45,16 @@ export default class Projects extends Component {
           </Card.Body>
       </Card>);
 
+      let shakeMeCard = (<Card>
+          <Card.Img variant="top" src="images/projects/shakemeCard.png" />
+          <Card.Body className="projectCard">
+              <Card.Title>ShakeMe App</Card.Title>
+              <Card.Text>
+                  A simple React Native app
+              </Card.Text>
+          </Card.Body>
+      </Card>);
+
 
   	return(
   		<div>
