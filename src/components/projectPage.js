@@ -4,6 +4,7 @@ import Sparkle from "./projects/sparkle";
 import Agar from "./projects/agar";
 import Perception from "./projects/perception";
 import Soma from "./projects/soma";
+import ShakeMe from "./projects/shakeme";
 export default class ProjectPage extends Component {
 
     constructor(props){
@@ -34,7 +35,7 @@ export default class ProjectPage extends Component {
                 content = <div><p>Munchkin project coming soon</p></div>;
                 break;
             case "shakeme":
-                content = <div><p>ShakeMe project coming soon</p></div>;
+                content = <ShakeMe/>;
                 break;
             case "soma":
                 content = <Soma/>;

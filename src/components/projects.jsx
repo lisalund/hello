@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default class Projects extends Component {
   render() {
-      let sparkleCard = (<Card border="light">
+      let sparkleCard = (<Card>
           <Card.Img variant="top" src="images/projects/sparkleCard.png" />
           <Card.Body className="projectCard">
               <Card.Title>Sparkle Food Diary</Card.Title>
@@ -15,7 +15,7 @@ export default class Projects extends Component {
       </Card>);
 
       let agarCard = (
-          <Card border="light">
+          <Card>
               <Card.Img variant="top" src="images/projects/agarCard.png" />
               <Card.Body className="projectCard">
                   <Card.Title>Agar.io evaluation</Card.Title>
@@ -25,7 +25,7 @@ export default class Projects extends Component {
               </Card.Body>
           </Card>);
 
-      let perceptionCard = (<Card border="light">
+      let perceptionCard = (<Card>
           <Card.Img variant="top" src="images/projects/perceptionCard.png" />
           <Card.Body className="projectCard">
               <Card.Title>Experiment on human short-term memory</Card.Title>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
           </Card.Body>
       </Card>);
 
-      let somaCard = (<Card border="light">
+      let somaCard = (<Card>
           <Card.Img variant="top" src="images/projects/somaCard.png" />
           <Card.Body className="projectCard">
               <Card.Title>Somaesthetic Design</Card.Title>
