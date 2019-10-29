@@ -50,7 +50,7 @@ export default class Projects extends Component {
           <Card.Body className="projectCard">
               <Card.Title>ShakeMe App</Card.Title>
               <Card.Text>
-                  A simple React Native app
+                  A simple React Native app that generates pickup lines from an API
               </Card.Text>
           </Card.Body>
       </Card>);
