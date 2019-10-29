@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Image } from 'react-bootstrap'
-import Card from "react-bootstrap/esm/Card";
 
 export default class Sidebar extends Component {
   render() {

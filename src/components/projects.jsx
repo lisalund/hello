@@ -54,7 +54,15 @@ export default class Projects extends Component {
               </Card.Text>
           </Card.Body>
       </Card>);
-
+      let munchkinCard = (<Card>
+          <Card.Img variant="top" src="images/projects/munchkinCard.png" />
+          <Card.Body className="projectCard">
+              <Card.Title>Munchkin AR</Card.Title>
+              <Card.Text>
+                  Augmented reality for the tabletop game Munchkin
+              </Card.Text>
+          </Card.Body>
+      </Card>);
 
   	return(
   		<div>
@@ -68,19 +76,11 @@ export default class Projects extends Component {
 					</div>
 						<CardColumns>
                             <Link to={'/sparkle'}>{sparkleCard}</Link>
-                            <Link to={'/soma'}>{somaCard}</Link>
-                            <Link to={'/agar'}>{agarCard}</Link>
                             <Link to={'/perception'}>{perceptionCard}</Link>
+                            <Link to={'/agar'}>{agarCard}</Link>
                             <Link to={'/shakeme'}>{shakeMeCard}</Link>
-                            <Card>
-                                <Card.Img variant="top" src="images/projects/underConstruction.png" />
-                                <Card.Body>
-                                    <Card.Title>More coming soon</Card.Title>
-                                    <Card.Text>
-                                        This portfolio is under construction, more of my projects will be added shortly
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <Link to={'/soma'}>{somaCard}</Link>
+                            <Link to={'/munchkin'}>{munchkinCard}</Link>
 
 						</CardColumns>
 					<div>
