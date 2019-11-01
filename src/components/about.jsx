@@ -37,7 +37,7 @@ export default class About extends Component {
                     <p>I'm a computer science student at KTH Royal Institute of Technology in Stockholm. While my major is computer science, I have chosen to focus on interaction design, as I want to work close to humans.
                     I'm nearing the end of my studies, and I'm currently looking around for something to write a master's thesis about. </p>
                     <p>
-                        In my free time I knit, draw and watch copious amounts of YouTube. I also foster cats for Stockholms Katthem (right now I'm taking care of <a href="http://www.katthemmet.nu/katter/katter-i-akuthem/melania.aspx" target="_blank" rel="noopener noreferrer">Mel</a>).
+                        In my free time I knit, draw and do yoga. I also foster cats for Stockholms Katthem (right now I'm taking care of <a href="http://www.katthemmet.nu/katter/katter-i-akuthem/melania.aspx" target="_blank" rel="noopener noreferrer">Mel</a>).
                     </p>
                     </div>
                     <div className="CVbuttons">
