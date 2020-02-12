@@ -35,9 +35,9 @@ export default class About extends Component {
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>I'm a computer science student at KTH Royal Institute of Technology in Stockholm. While my major is computer science, I have chosen to focus on interaction design, as I want to work close to humans.
-                    I'm nearing the end of my studies, and I'm currently looking around for something to write a master's thesis about. </p>
+                    I'm nearing the end of my studies, and I'm currently writing my master's thesis. </p>
                     <p>
-                        In my free time I knit, draw and do yoga. I also foster cats for Stockholms Katthem (right now I'm taking care of <a href="http://www.katthemmet.nu/katter/katter-i-akuthem/melania.aspx" target="_blank" rel="noopener noreferrer">Mel</a>).
+                        In my free time I knit, draw and do yoga. I also foster cats for Stockholms Katthem (right now I'm taking care of <a href="http://www.katthemmet.nu/katter/katter-i-akuthem/shailene.aspx" target="_blank" rel="noopener noreferrer">Shailene</a>).
                     </p>
                     </div>
                     <div className="CVbuttons">
